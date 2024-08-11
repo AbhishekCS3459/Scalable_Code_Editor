@@ -6,6 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
+import Marquee from "react-fast-marquee";
 
 import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
@@ -345,7 +346,10 @@ function NavBar() {
           </Box>
           <Box sx={{ flexGrow: 0, gap: 2 }}>
             <Tooltip title="Open Github">
-              <Link href="https://github.com/AbhishekCS3459">
+              <Link
+                href="https://github.com/AbhishekCS3459/Scalable_Code_Editor.git"
+                target="_blank"
+              >
                 <IconButton sx={{ p: 0 }}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -436,6 +440,18 @@ function NavBar() {
         </Toolbar>
       </Container>
       <LinearProgress color="warning" hidden={isProgressVisible} />
+      <Marquee
+      speed={40}
+      delay={0}
+      loop={0}
+      gradientWidth={200}
+      gradientColor="248 251 253"
+      >
+        <strong className="text-lg text-red-400">
+          The Backend of this code Editor requires costing, you can access the
+          complete code with demo in Docker environment in the GitHub icon above.
+        </strong>
+      </Marquee>
     </AppBar>
   );
 }
