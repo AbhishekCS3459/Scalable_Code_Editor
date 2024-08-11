@@ -21,6 +21,11 @@ The Scalable Code Editor is designed to provide a seamless development experienc
 
 ![image](https://github.com/user-attachments/assets/51cd7928-53b0-4299-aa2c-39d8c671c4e7)
 
+## Demo Local Setup
+
+https://github.com/user-attachments/assets/a9e43980-8362-4a41-aac6-02659e231543
+
+
 
 
 ## Backend Setup Using Docker
