@@ -1,0 +1,15 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# .env file
+.env
+
+# dependencies
+client/node_modules/
+server/node_modules/
+server/dist/
+client/.next/
+client/out/
+client/build
+node_modules
+server/pnpm-lock.yaml
+server/yarn.lock
