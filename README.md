@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Scalable Code Editor is designed to provide a seamless development experience, allowing users to input code and data and receive corresponding output. The editor’s standout feature is its Docker support, enabling consistent code execution across various environments.
+The Scalable Code Editor is designed to provide a seamless development experience, allowing users to input code and data and receive corresponding output. The editor’s standout feature is its Docker support, enabling consistent code execution across various environments. It uses docker containers to run code of different languages hence providing an isolated environment.
 
 ## Features
 
